@@ -1,0 +1,12 @@
+footer.footer
+  .footer-container
+    nav.footer-nav
+      a(href="javascript:void(0)").footer-logo.footer-nav--item
+        i.footer-logo--img
+      each item in menu
+        a(href= item.link).footer-nav--item.jsAncor
+          = item.name
+      a(href="tel:88005004549").footer-nav--item.footer-nav--item__phone 88005004549
+    hr
+    p.footer-copy Разработка сайта 
+      a(href="skype:monkeysbrain").footer-copy--link monkeysbrain

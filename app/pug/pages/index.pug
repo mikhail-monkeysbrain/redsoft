@@ -1,0 +1,13 @@
+extends ../base/layout
+
+block header
+  include ../blocks/header
+block main
+  main.grid
+    include ../blocks/slider
+    include ../blocks/diary
+    include ../blocks/functions
+  include ../blocks/footer
+
+block scripts
+  include ../base/scripts

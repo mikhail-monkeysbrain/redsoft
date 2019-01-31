@@ -1,0 +1,16 @@
+section.slider#main
+  .slider__full
+    each slide in slider
+      figure.slider--item
+        .slider--circle.slider--circle-1
+        .slider--circle.slider--circle-2
+        .slider--circle.slider--circle-3
+        img(src= slide.img, alt= slide.heading).slider--bg
+        figcaption.section__action
+          h2.h2.section--heading
+            = slide.heading
+          p(class= slide.descriptionClass) 
+            = slide.description
+          a(href= slide.btnLink, class= slide.btnClass)
+            = slide.btnText
+  .slider__full--dots

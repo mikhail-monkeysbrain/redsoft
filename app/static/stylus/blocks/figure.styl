@@ -1,0 +1,57 @@
+.section
+  &__action
+    width 742px
+    position absolute
+    left 0
+    right 0
+    top 20px
+    margin 0 auto
+    outline: none
+    height 100%
+    display flex
+    flex-direction: column
+    justify-content center
+  &__six
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr
+    grid-template-rows: 1fr 1fr
+    grid-template-areas: ". . ." ". . ."
+
+  &--heading,
+  &--description
+    color #ffffff
+    text-align center
+    margin-bottom 51px
+
+  &-request
+    width 936px
+    margin 155px auto 165px
+    display flex
+    justify-content space-between
+    align-items center
+    z-index 1
+
+    &--image
+      width 335px
+      flex-shrink: 0
+      z-index 1
+
+    &--article
+      width 560px
+      flex-shrink: 0
+      color $blueText
+      font-family $mainFontMedium
+      margin-top -60px
+
+    &--description
+      margin 18px 0
+
+    &--listing
+      color $blueList
+      margin-bottom 30px
+
+      li
+        margin 18px 0
+
+      &--item
+        color $blueText

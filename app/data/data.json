@@ -1,0 +1,70 @@
+{
+	"menu" : {
+		"main": {
+			"name": "О сервисе",
+      "link": "#about",
+      "class": "header-nav--item header-nav--item__active jsAncor"
+		},
+		"functions": {
+			"name": "Функции",
+      "link": "#functions",
+      "class": "header-nav--item jsAncor"
+		},
+		"possibility": {
+			"name": "Возможности",
+      "link": "javascript:void(0)",
+      "class": "header-nav--item"
+		},
+		"partners": {
+			"name": "Партнеры",
+      "link": "javascript:void(0)",
+      "class": "header-nav--item"
+		}
+  },
+  "slider": {
+    "slide-1": {
+      "img": "dist/img/content/top-bg-1.png",
+      "heading": "Расширяем возможности предоставления качественных медицинских услуг",
+      "description": "«Дневник здоровья» – новый сервис для самоконтроля показателей состояния здоровья, разработанный для участников программы «Мое здоровье».",
+      "descriptionClass": "h3 section--description",
+      "btnText": "Узнать больше",
+      "btnLink": "javascript:void(0)",
+      "btnClass": "section--button btn btn__pink"
+    },
+    "slide-2": {
+      "img": "dist/img/content/top-bg-2.png",
+      "heading": "Следить за здоровьем станет проще",
+      "description": "Скоро вы сможете находиться на связи со своим лечащим врачом независимо от своего местоположения, вести дневник мониторинга самочувствия, получать рекомендации по плану лечения и многое другое.",
+      "descriptionClass": "h4 section--description",
+      "btnText": "Узнать больше",
+      "btnLink": "javascript:void(0)",
+      "btnClass": "section--button btn btn__pink btn__pink-long"
+    }
+  },
+  "functions" : {
+    "f1" : {
+      "img" : "functions--sprite__1",
+      "text" : "Планирование графика приема лекарств"
+    },
+    "f2" : {
+      "img" : "functions--sprite__2",
+      "text" : "Уведомление врача об исполнении назначений"
+    },
+    "f3" : {
+      "img" : "functions--sprite__3",
+      "text" : "Ведение дневника самочувствия"
+    },
+    "f4" : {
+      "img" : "functions--sprite__4",
+      "text" : "Удаленное предоставление измерений врачу"
+    },
+    "f5" : {
+      "img" : "functions--sprite__5",
+      "text" : "Общение с врачами через встроенный мессенджер"
+    },
+    "f6" : {
+      "img" : "functions--sprite__6",
+      "text" : "Получение уведомлений для выполнения назначений"
+    }
+  }
+}

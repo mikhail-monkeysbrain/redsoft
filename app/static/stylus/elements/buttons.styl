@@ -1,0 +1,35 @@
+.btn
+  height 60px
+  padding 0 30px
+  line-height 1
+  border-radius 30px
+  background transparent
+  display flex
+  justify-content center
+  align-items center
+  cursor pointer
+  transition: $middle
+  flex-shrink: 0
+  font-size: 16px
+  color #f0f5ff
+  &__transparent
+    border 2px solid $blue
+    font-family $mainFontBold
+    &:hover
+      background $blue
+    &:active
+      border 2px solid #f0f5ff
+  &__pink
+    background $pink
+    font-family $btnFont
+    max-width 200px
+    width 100%
+    margin 0 auto
+    box-shadow: 0 0 0 0 transparent
+    letter-spacing: -1px
+    &:hover
+      background $pinkHover
+      box-shadow 0 6px 33px 7px $pinkShadow
+      max-width 220px
+  &__nomargin
+    margin 0

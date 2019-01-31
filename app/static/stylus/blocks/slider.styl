@@ -1,0 +1,68 @@
+.slider
+  position relative
+  z-index 2
+  &__full
+
+    &--dots
+      position absolute
+      left 0
+      right 0
+      bottom 47px
+      .slick-dots
+        width 72px
+        height 16px
+        border-radius 8px
+        border 1px solid $blue
+        margin 0 auto
+        display flex
+        justify-content center
+        align-items center
+        padding 0
+        list-style none
+        li
+          cursor pointer
+          height auto
+          transform: translateY(-5px)
+          button
+            font-size: 0
+            width 16px
+            height 1px
+            background $blue
+            margin 0 4px
+            transition: $fast
+          &.slick-active
+            button
+              background #fff
+
+  &--item
+    position relative
+  
+  &--bg
+    height 751px
+    object-fit: cover
+    object-position: center
+
+  &--circle
+    position: absolute
+    opacity: 0.06
+    z-index: 0
+    border-radius: 100vw 100vw 0 0
+    border-left: 2px solid #fff
+    &-1
+      width: 1920px
+      height: 2016px
+      left: -10px
+      top: -144px
+    &-2
+      width: 1695px
+      height: 864px
+      border-top: 2px solid #fff
+      left: 334px
+      top: 6px
+    &-3
+      width: 1152px
+      height: 691px
+      border-radius: 1536px 1209px 0 0
+      left: 875px
+      top: 346px
+      border: 2px solid #fff

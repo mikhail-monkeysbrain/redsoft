@@ -1,0 +1,10 @@
+section.functions.jsMenuItem#functions
+  h2.h2.functions--heading
+    | Функции приложения
+  section.section__six.functions--section
+    each item in functions
+      figure.functions--figure
+        .functions--figure--img
+          i(class= item.img)
+        figcaption.functions--figure--description 
+          = item.text

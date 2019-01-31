@@ -1,0 +1,11 @@
+block header
+  header.header
+    .header-container
+      nav.header-nav
+        a(href="#main").header-logo.header-nav--item.jsAncor
+          i.header-logo--img
+        each item in menu
+          a(href= item.link, class= item.class)
+            = item.name
+        .header-nav--dot &#10625;
+      button.btn.btn__transparent.header--btn.jsRequest Оставить заявку

@@ -1,0 +1,51 @@
+@import '../core/variables.styl';
+
+.footer
+  background $footer
+  color #ffffff
+
+  hr
+    max-width: 1160px
+    width: 100%
+    margin: 0 auto
+    height: 1px
+    border: 0
+    background-color #335b91
+
+  &-container
+    container()
+    padding 0
+    height: $heightFooter
+    display: flex
+    align-items: center
+    justify-content: center
+    flex-direction: column
+
+  &-nav
+    @extend .header-nav
+    padding-bottom 25px
+
+    &--item
+      @extend .header-nav--item
+      padding 26px 36px
+      &__phone
+        padding-right 0
+
+  &-logo
+    @extend .header-logo
+    padding-left 0
+
+    &--img
+      sprite($s_footer_logo)
+      display block
+
+  &-copy
+    color #e3e7f2
+    font-family $mainFont
+    font-size 14px
+    line-height 21px
+    margin 0
+    padding-top 37px
+
+    &--link
+      color $pink

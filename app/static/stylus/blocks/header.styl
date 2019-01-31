@@ -1,0 +1,59 @@
+@import '../core/variables.styl';
+
+.header
+  width 100%
+  height $heightHeader
+  position fixed
+  z-index 3
+  top 0
+  left 0
+  right 0
+  transition: $middle
+  &__sticky
+    background $blue
+    .btn
+      border-color: #fff
+      &:hover
+        box-shadow: 0 6px 33px 7px rgba(255,255,255 .3)
+        transform translateY(5px) translateX(5px)
+
+  &-container
+    container()
+    height $heightHeader
+    display flex
+    align-items center
+    justify-content space-between
+
+  &--btn
+    max-width 200px
+    margin-left 45px
+    transition: $middle
+
+  &-nav
+    width 100%
+    display flex
+    align-items center
+    justify-content space-between
+    &--dot
+      color #ffffff
+      position absolute
+      line-height 15px
+      font-size: 15px
+      left 0
+      bottom 10px
+      transition: $middle
+      display none
+    &--item
+      color #ffffff
+      padding 26px
+      flex-shrink: 0
+      font-size 16px
+      font-family $mainFontBold
+
+  &-logo
+    display block
+    margin-right auto
+    padding 0
+    &--img
+      sprite($s_header_logo)
+      display block
